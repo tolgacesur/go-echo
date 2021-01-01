@@ -5,14 +5,14 @@ import (
 	"net/http"
 )
 
-type Me struct {
+type User struct {
 	Name           string `json:"name"'`
 	Surname        string `json:"surname"`
 	Github_profile string `json:"github_profile"`
 }
 
 func handler(context echo.Context) error {
-	me := &Me{
+	me := &User{
 		Name:           "Tolga",
 		Surname:        "Cesur",
 		Github_profile: "github.com/tolgacesur",
