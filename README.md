@@ -6,8 +6,8 @@ it contains a single endpoint that returns this json
 
 ```json
 {
-  name: "Tolga",
-  surname: "Cesur",
-  github_profile: "github.com/tolgacesur"
+  "name": "Tolga",
+  "surname": "Cesur",
+  "github_profile": "github.com/tolgacesur"
 }
 ```
